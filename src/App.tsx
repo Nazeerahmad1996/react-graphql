@@ -95,7 +95,6 @@ function App() {
               }
             }
           )
-          if(res.data && res.data.data) useQuery(data)
           console.log(res)
         }}>
           <label>Name</label>
